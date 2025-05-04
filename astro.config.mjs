@@ -10,9 +10,9 @@ export default defineConfig({
         plugins: [tailwindcss()],
       },
 
-    integrations: [clerk()],
+    // integrations: [clerk()],
 
-    adapter: node({ mode: "standalone" }),
+    // adapter: node({ mode: "standalone" }),
     
     output: "server",
 });
